@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    background: whitesmoke;
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    margin: 10% auto;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+#txt{
+    font-size: 20px;
+    font-weight: 700;
+}
+#set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+button{
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    background: lightcoral;
+    font-weight: 700;
+    color: whitesmoke;
+}

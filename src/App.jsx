@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <section className='cont'>
-      <p><h1>Today Birthdays: {data.length}</h1></p>
+      <p><h1> Birthdays: {data.length}</h1></p>
       <br />
       {
         data.map((x)=>{
